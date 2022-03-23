@@ -2,12 +2,14 @@ import "./topbar.scss"
 import MailIcon from '@mui/icons-material/Mail';
 import PersonIcon from '@mui/icons-material/Person';
 
-export default function Topbar() {
+export default function Topbar({menuOpen, setMenuOpen}) {
   return (
-    <div className="topbar">
+    <div className={"topbar " + (menuOpen && "active")}>
         <div className="wrapper">
           <div className="left">
-            <a href="#intro" className="logo">tucker.</a>
+            <a href="#intro" className="logo-top">
+              tucker.
+            </a>
             <div className="itemContainer">
               <PersonIcon className="icon"/>
               <span>+44 924</span>
@@ -18,7 +20,7 @@ export default function Topbar() {
             </div>
           </div>
           <div className="right">
-              <div className="hamburger">
+              <div className="hamburger" onClick={()=> setMenuOpen(!menuOpen)}>
                 <span className="line1"></span>
                 <span className="line2"></span>
                 <span className="line3"></span>
@@ -26,5 +28,5 @@ export default function Topbar() {
           </div>
         </div>
     </div>
-  )
+  );
 }

@@ -1,14 +1,8 @@
-import { useState } from "react";
 import "./contact.scss";
 import { ExternalLink } from "react-external-link";
 
 export default function Contact() {
-  const [message, setMessage] = useState(false);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setMessage(true);
-  };
+  
   return (
     <div className="contact" id="contact">
       <h1>Contact <span>Me</span></h1>

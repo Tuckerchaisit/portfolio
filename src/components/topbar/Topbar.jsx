@@ -8,11 +8,11 @@ export default function Topbar({menuOpen, setMenuOpen}) {
         <div className="wrapper">
           <div className="left">
             <a href="#intro" className="logo-top">
-              tucker.
+              TC
             </a>
             <div className="itemContainer">
               <PersonIcon className="icon"/>
-              <span>+44 924</span>
+              <span>(617)-699-8282</span>
             </div>
             <div className="itemContainer">
               <MailIcon className="icon"/>

@@ -1,12 +1,9 @@
 import { useEffect, useState } from "react";
 import PortfolioList from "../portfoliolist/Portfoliolist";
 import "./portfolio.scss";
+import { ExternalLink } from "react-external-link";
 import {
   featuredPortfolio,
-  // webPortfolio,
-  // mobilePortfolio,
-  // designPortfolio,
-  // contentPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
@@ -16,23 +13,9 @@ export default function Portfolio() {
     {
       id: "featured",
       title: "Featured",
+      info: "Featured"
     },
-    // {
-    //   id: "web",
-    //   title: "Web App",
-    // },
-    // {
-    //   id: "mobile",
-    //   title: "Mobile App",
-    // },
-    // {
-    //   id: "design",
-    //   title: "Design",
-    // },
-    // {
-    //   id: "content",
-    //   title: "Content",
-    // },
+    
   ];
 
   useEffect(() => {
@@ -40,25 +23,13 @@ export default function Portfolio() {
       case "featured":
         setData(featuredPortfolio);
         break;
-      // case "web":
-      //   setData(webPortfolio);
-      //   break;
-      // case "mobile":
-      //   setData(mobilePortfolio);
-      //   break;
-      // case "design":
-      //   setData(designPortfolio);
-      //   break;
-      // case "content":
-      //   setData(contentPortfolio);
-      //   break;
       default:
         setData(featuredPortfolio);
     }
   }, [selected]);
 
   return (
-    <div className="portfolio" id="portfolio">
+    <div className="portfolio" id="projects">
       <h1>Projects</h1>
       <ul>
         {list.map((item) => (
@@ -72,13 +43,15 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         {data.map((d) => (
-          <div className="item">
-            <img
-              src={d.img}
-              alt=""
-            />
-            <h3>{d.title}</h3>
-          </div>
+          <ExternalLink href={d.url}>
+            <div className="item">
+              <img
+                src={d.img}
+                alt=""
+              />
+              <h3><span className="titlespan">{d.title}</span> <br /> <br /> {d.info} <br /> <span>{d.tech}</span></h3>
+            </div>
+          </ExternalLink>
         ))}
       </div>
     </div>

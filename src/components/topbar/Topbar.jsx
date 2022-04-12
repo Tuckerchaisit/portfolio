@@ -1,6 +1,6 @@
 import "./topbar.scss"
 import MailIcon from '@mui/icons-material/Mail';
-import PersonIcon from '@mui/icons-material/Person';
+// import PersonIcon from '@mui/icons-material/Person';
 
 export default function Topbar({menuOpen, setMenuOpen}) {
   return (

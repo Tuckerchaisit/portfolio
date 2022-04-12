@@ -10,10 +10,10 @@ export default function Topbar({menuOpen, setMenuOpen}) {
             <a href="#intro" className="logo-top">
               TC
             </a>
-            <div className="itemContainer">
+            {/* <div className="itemContainer">
               <PersonIcon className="icon"/>
               <span>(617)-699-8282</span>
-            </div>
+            </div> */}
             <div className="itemContainer">
               <MailIcon className="icon"/>
               <span>tucker.chaisit@gmail.com</span>

@@ -10,6 +10,15 @@ export const featuredPortfolio = [
   },
   {
     id: 2,
+    title: "groceList",
+    img:
+      "https://i.imgur.com/a/mB351I0.png",
+    info:"Mobile focused app that help make every visit to the grocery store faster and more efficient",
+    tech:"Python, Flask, PostgreSQL, Jinja",
+    url:"https://grocelist-tc.herokuapp.com/"
+  },
+  {
+    id: 3,
     title: "beeHungry",
     img:
       "https://i.imgur.com/bEuCjUe.png",
@@ -18,7 +27,7 @@ export const featuredPortfolio = [
     url:"https://bee-hungry.herokuapp.com/"
   },
   {
-    id: 3,
+    id: 4,
     title: "Blackjack",
     img:
       "https://i.imgur.com/cQMKHkl.png",
@@ -27,7 +36,7 @@ export const featuredPortfolio = [
     url:"https://blackjack-tc.surge.sh/"
   },
   {
-    id: 4,
+    id: 5,
     title: "Tic-Tac-Toe",
     img:
       "https://i.imgur.com/cLbqZew.png",

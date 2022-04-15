@@ -12,7 +12,7 @@ export const featuredPortfolio = [
     id: 2,
     title: "groceList",
     img:
-      "https://i.imgur.com/O1ytUH5.png",
+      "https://i.imgur.com/j0liG0E.png",
     info:"Mobile focused app that helps make every visit to the grocery store faster and more efficient",
     tech:"Python, Flask, PostgreSQL, Jinja",
     url:"https://grocelist-tc.herokuapp.com/"

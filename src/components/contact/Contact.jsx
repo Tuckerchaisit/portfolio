@@ -19,7 +19,7 @@ export default function Contact() {
       <hr />
       <a
         className="file-container"
-        href="../assets/Resume.pdf"
+        href="../assets/Resume_ Tucker-Chaisit.pdf"
         download
       >
         <img src="assets/file-wht.png" alt="" />

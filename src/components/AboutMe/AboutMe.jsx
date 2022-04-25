@@ -7,7 +7,7 @@ export default function AboutMe() {
       <h1>About</h1>
       <h1 className="me-text">Me</h1>
       </div>
-      <p className="aboutme-info">    I am a <span>well-rounded</span>, <span>highly-motivated </span>software engineer with a background in electrical engineering. The real-world engineering experience has helped me shape a strong foundation in <span>logical and critical thinking</span> as well as <span>collaboration skills</span> within a team. I am <span>passionate</span> about innovation, new techonology, always <span>excited to learn new things</span>, and <span>enjoy solving challenging and complex problems</span> that have a positive impact on the individual, society, and the world.</p>
+      <p className="aboutme-info">I am a <span>well-rounded</span>, <span>highly-motivated </span>software engineer with a background in electrical engineering. The real-world engineering experience has helped me shape a strong foundation in <span>logical and critical thinking</span> as well as <span>collaboration skills</span> within a team. I am <span>passionate</span> about innovation, new techonology, always <span>excited to learn new things</span>, and <span>enjoy solving challenging and complex problems</span> that have a positive impact on the individual, society, and the world.</p>
       <h2>Skills</h2>
       <hr />
       <div className="skills-container-1">

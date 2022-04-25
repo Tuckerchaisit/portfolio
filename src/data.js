@@ -6,7 +6,8 @@ export const featuredPortfolio = [
       "https://i.imgur.com/qeD8zzY.png",
     info:"Dating app that helps users plan the date and connect with other users",
     tech:"MongoDB, Express.js, React, Node.js, Mongoose, Sass",
-    url:"https://next-date-front.herokuapp.com/"
+    url:"https://next-date-front.herokuapp.com/",
+    src:"https://github.com/Tuckerchaisit/nextDate/"
   },
   {
     id: 2,
@@ -15,7 +16,8 @@ export const featuredPortfolio = [
       "https://i.imgur.com/j0liG0E.png",
     info:"Mobile focused app that helps make every visit to the grocery store faster and more efficient",
     tech:"Python, Flask, PostgreSQL, Jinja",
-    url:"https://grocelist-tc.herokuapp.com/"
+    url:"https://grocelist-tc.herokuapp.com/",
+    src:"https://github.com/Tuckerchaisit/groceList/"
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ export const featuredPortfolio = [
       "https://i.imgur.com/bEuCjUe.png",
     info:"Responsive restaurants tracker app",
     tech:"JavaScript, Express.js, EJS, MongoDB, Mongoose, Bootstrap, Node.js (MEN Stack)",
-    url:"https://bee-hungry.herokuapp.com/"
+    url:"https://bee-hungry.herokuapp.com/",
+    src:"https://github.com/Tuckerchaisit/beeHungry/"
   },
   {
     id: 4,
@@ -33,7 +36,8 @@ export const featuredPortfolio = [
       "https://i.imgur.com/cQMKHkl.png",
     info:"Responsive browser game",
     tech:"JavaScript, HTML, CSS(Flexbox & Grid)",
-    url:"https://blackjack-tc.surge.sh/"
+    url:"https://blackjack-tc.surge.sh/",
+    src:"https://github.com/Tuckerchaisit/BLACKJACK/"
   },
   {
     id: 5,

@@ -117,3 +117,13 @@
     }
   }
 }
+
+.src-code{
+  background-color: white;
+  color:$mainColor;
+  text-decoration: none;
+}
+.src-code:hover{
+  background-color: rgb(65, 81, 37);
+  color:white;
+}

@@ -49,7 +49,8 @@ export default function Portfolio() {
                 src={d.img}
                 alt=""
               />
-              <h3><span className="titlespan">{d.title}</span> <br /> <br /> {d.info} <br /> <span>{d.tech}</span></h3>
+              <h3><span className="titlespan">{d.title}</span> <br /> <br /> {d.info} <br /> <span>{d.tech}</span> <br /><br />
+              <ExternalLink href={d.src} className="src-code">View Source Code</ExternalLink></h3>
             </div>
           </ExternalLink>
         ))}
